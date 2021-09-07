@@ -38,7 +38,7 @@
   width: 150px;
   justify-content: center;
   height: 40px;
-  background-color: rgb(181, 165, 207);
+  background-color: rgb(79, 52, 122);
   border-radius: 10px;
 }
 
@@ -50,8 +50,7 @@ h1 {
   text-align: center;
 }
 body {
-  /* background-color: beige; */
-  background-image: url(https://klike.net/uploads/posts/2020-09/1599896332_2.jpg);
+  background-color: rgb(150, 150, 43);
   background-size: cover;
 }
 .search-form {
