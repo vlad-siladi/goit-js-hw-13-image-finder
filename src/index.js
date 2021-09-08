@@ -74,13 +74,14 @@ function onClickModalForBigImage(e) {
 
   instance.show();
 }
-function scroll() {
-  refs.body.scrollIntoView({
-    behavior: 'smooth',
-    block: 'end',
-  });
-  console.log(refs.body);
-}
+// function scroll() {
+//   refs.body.scrollIntoView({
+//     behavior: 'smooth',
+//     block: 'end',
+//      left: 0,
+//   });
+//   console.log(refs.body);
+// }
 
 refs.form.addEventListener('submit', onInput);
 refs.loadMore.addEventListener('click', onInput);
